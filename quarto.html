@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="quarto.css">
+    <link rel="stylesheet" href="obrigado.html">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo"><strong>Cadastre-se</strong></h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+    
+    <form>
+        <fieldset class="grupo">
+            <div>
+               <label for="nome"><strong>Nome</strong></label><br>
+               <input type="text" name="nome" id="nome" required> 
+            </div>
+    <br>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+    
+        <div class="campo">
+            <label for="e-mail"><strong>E-mail</strong></label>
+            <input type="text" name="e-mail" id="e-mail" required>
+        </div>
+
+        <div class="campo">
+            <label for="Telefone"><strong>Telefone</strong></label>
+            <input type="text" name="Telefone" id="Telefone" required>
+        </div>
+    
+        <div class="campo">
+            <strong><label>Qual é o seu grau de escolaridade?</label></strong>
+            <label>
+                <input type="radio" name="devweb" value="Ensiono fundamental" checked> Ensino fundamental
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Ensino médio" checked> Ensino médio
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Curso técnico"> Curso técnico
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Graduação"> Graduação
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="Pós Graduação"> Pós Graduação
+            </label>
+        </div required>
+    
+    <div class="campo">
+        <strong><label for="nivel atual">Sexo</label></strong>
+        <select id="Nivel Atual">
+            <option selected disabled value="">Selecione</option>
+            <option>Masculino</option>
+            <option>Feminimo</option>
+            <option>Prefiro não informar</option>
+        </select>
+    </div>
+
+    <div class="campo">
+        <strong><label for="nivel atual">Está atuando na área atualmente?</label></strong>
+        <select id="Nivel Atual">
+            <option selected disabled value="">Selecione</option>
+            <option>Não</option>
+            <option>Sim</option>
+           
+        </select>
+    </div>
+    
+    <fieldset class="grupo">
+        <div id="check">
+            <strong><label>Selecione ferramentas que já tenha familiaridade</label><br><br></strong>
+            <input type="checkbox" name="Ferramentas1" value="Tesoura">
+            <label for="ferramentas">Tesouras</label>
+            <input type="checkbox" name="Ferramentas2" value="Maquininha">
+            <label for="ferramentas">Maquininha</label>
+            <input type="checkbox" name="Ferramentas3" value="Secador">
+            <label for="ferramentas">Secador</label>
+            <input type="checkbox" name="Ferramentas4" value="Chapinha">
+            <label for="ferramentas">Chapinha</label>
+            <input type="checkbox" name="Ferramenta5" value="Navalha">
+            <label for="ferramentas">Navalha</label>
+            <input type="checkbox" name="Ferramentas6" value="Pomadas">
+            <label for="ferramentas">Pomadas</label>
+            <input type="checkbox" name="Ferramentas7" value="Produtos Quimicos">
+            <label for="ferramentas">Produtos Quimicos</label>
+        </div>
+    </fieldset>
+    
+    <div class="campo">
+        <br>
+        <label><strong>Conte um pouco mais sobre sua experiência:</strong></label>
+        <textarea row="6" style="width: 26em;" id="experiência" name="experiência"></textarea>
+        <button class="botao" type="submit"><a href="obrigado.html">Concluir</a></button>
+    </div>
+    </form>
+    <button class="botao1" type="submit"><a href="Jackson.oliveira.html">Voltar</a></button>
+</body>
+</html>
